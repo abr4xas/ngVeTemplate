@@ -17,7 +17,7 @@
 
     //Inyectando Dependencias
     githubService.$inject = ['$log','$http','gh'];
-    function githubService ($log, $http,hg) {
+    function githubService ($log, $http,gh) {
         return {
             organizacion : getOrganizacion,
             repositorios : getRepos,

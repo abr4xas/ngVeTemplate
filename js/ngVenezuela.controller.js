@@ -12,8 +12,12 @@
     function Organizacion(GitHub) {
         var vm = this;
         vm.organizacion = {};
+        execute();
+        function execute(){
+          return ObtenerInformacion ();
+        }
         function ObtenerInformacion (){
-            return GitHub.organizacion
+            return GitHub.organizacion()
                 .then(function(data){
                 vm.organizacion = data;
                 return vm.organizacion;
