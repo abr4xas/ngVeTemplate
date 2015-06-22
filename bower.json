@@ -1,0 +1,30 @@
+{
+  "name": "ngVenezuela",
+  "version": "0.0.1",
+  "homepage": "angularjs.org.ve",
+  "authors": [
+    "abr4xas <me@abr4xas.org>"
+  ],
+  "description": "Sitio web de Angular.JS-VE",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angularjs",
+    "venezuela"
+  ],
+  "license": "GPLv2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "furtive": "~2.2.1",
+    "animate.css": "~3.3.0",
+    "fontawesome": "~4.3.0"
+  }
+}
